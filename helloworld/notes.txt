@@ -1,0 +1,5 @@
+NOTE: command to build C file to app
+gcc `pkg-config --cflags gtk+-3.0` -o hello-world-gtk hello-world-gtk.c `pkg-config --libs gtk+-3.0`
+
+NOTE: open vscode as admin on ubuntu 
+code . --user-data-dir="~/.vscode-root"
